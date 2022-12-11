@@ -16,10 +16,6 @@
       "avatar_path": "Avatar path",
       "jersey_number": 77,
       "country": "Player country",
-      "shoot": {
-        "left": false,
-        "right": true
-      },
       "is_valid": false
     }
   ],
