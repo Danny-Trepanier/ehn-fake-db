@@ -1,11 +1,42 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "User name",
+      "email": "user@name.com",
+      "is_premium": false
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "players": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Player name",
+      "description": "Player description",
+      "avatar_path": "Avatar path",
+      "jersey_number": 77,
+      "position": {
+        "lw": false,
+        "c": true,
+        "rw": false,
+        "ld": false,
+        "rd": false,
+        "g": true
+      },
+      "country": "Player country",
+      "shoot": {
+        "left": false,
+        "right": true
+      },
+      "is_valid": false
+    }
+  ],
+  "leagues": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "League name",
+      "description": "League description"
+    }
+  ],
 }
