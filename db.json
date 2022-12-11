@@ -15,14 +15,14 @@
       "description": "Player description",
       "avatar_path": "Avatar path",
       "jersey_number": 77,
-      "position": {
+      "position": [{
         "lw": false,
         "c": true,
         "rw": false,
         "ld": false,
         "rd": false,
         "g": true
-      },
+      }],
       "country": "Player country",
       "shoot": {
         "left": false,
